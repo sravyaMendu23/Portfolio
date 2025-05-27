@@ -1,0 +1,1 @@
+ D:\\Backup_Documents\\SRAVYA-Portfolio\\SravyaMendu_Flutter_Resume\\.dart_tool\\flutter_build\\d63913d12fc244b5cfcde55b77ee0bbf\\native_assets.yaml: 

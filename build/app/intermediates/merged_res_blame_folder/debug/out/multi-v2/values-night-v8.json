@@ -4,7 +4,11 @@
             "outputFile": "com.example.sravya_portfolio.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "D:\\Backup_Documents\\SRAVYA-Portfolio\\sravya_portfolio\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+=======
+                    "source": "D:\\Backup_Documents\\SRAVYA-Portfolio\\SravyaMendu_Flutter_Resume\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+>>>>>>> master
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

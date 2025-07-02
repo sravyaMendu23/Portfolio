@@ -884,6 +884,7 @@ file:///C:/dev/flutter/packages/flutter_web_plugins/lib/src/navigation/url_strat
 file:///C:/dev/flutter/packages/flutter_web_plugins/lib/src/navigation/utils.dart
 file:///C:/dev/flutter/packages/flutter_web_plugins/lib/src/plugin_event_channel.dart
 file:///C:/dev/flutter/packages/flutter_web_plugins/lib/src/plugin_registry.dart
+<<<<<<< HEAD
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/app.dill
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/main.dart
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/web_plugin_registrant.dart
@@ -914,6 +915,38 @@ file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/lib/widgets/frame_
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/lib/widgets/nav_bar.dart
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/lib/widgets/social_profiles.dart
 file:///D:/Backup_Documents/SRAVYA-Portfolio/sravya_portfolio/lib/widgets/text_pairs.dart
+=======
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/app.dill
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/main.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/.dart_tool/flutter_build/77d497f1528cc4073a4828dbfb6f55b9/web_plugin_registrant.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_1_header.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_2_about_me.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_3_education.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_4_experience.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_5_projects.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_6_contact.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/desktop/ds_7_footer.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/main.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_1_header.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_2_about_me.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_3_education.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_4_experience.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_5_projects.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_6_contact.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/mobile/ms_7_footer.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/statics/data_values.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/statics/key_holders.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/theme/app_theme.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/theme/responsive_screen_provider.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/button_icon.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/button_rectangle.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/button_text.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/container_card.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/frame_title.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/nav_bar.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/social_profiles.dart
+file:///D:/Backup_Documents/SravyaMendu_Flutter_Resume-1/lib/widgets/text_pairs.dart
+>>>>>>> master
 org-dartlang-sdk:///dart-sdk/lib/_http/crypto.dart
 org-dartlang-sdk:///dart-sdk/lib/_http/embedder_config.dart
 org-dartlang-sdk:///dart-sdk/lib/_http/http.dart

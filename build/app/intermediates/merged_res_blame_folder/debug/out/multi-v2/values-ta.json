@@ -4,6 +4,7 @@
             "outputFile": "com.example.sravya_portfolio.app-mergeDebugResources-26:/values-ta/values-ta.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\22f52ad333b6b2c866fad7df6c08d122\\transformed\\core-1.13.1\\res\\values-ta\\values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -22,6 +23,9 @@
                 },
                 {
                     "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\516385c047ff7e6a3c06a8344d7135aa\\transformed\\browser-1.5.0\\res\\values-ta\\values-ta.xml",
+=======
+                    "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\22d127bf304e27a027fcb90f4cfdb5e2\\transformed\\browser-1.5.0\\res\\values-ta\\values-ta.xml",
+>>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -36,6 +40,26 @@
                         "endColumns": "116,101,106,103",
                         "endOffsets": "913,1015,1122,1226"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\61309f6069ee565d7d5c3f7dbe868c19\\transformed\\core-1.13.1\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,558,673,801",
+                        "endColumns": "95,102,98,97,106,114,127,100",
+                        "endOffsets": "146,249,348,446,553,668,796,897"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,558,673,1231",
+                        "endColumns": "95,102,98,97,106,114,127,100",
+                        "endOffsets": "146,249,348,446,553,668,796,1327"
+                    }
+>>>>>>> master
                 }
             ]
         }

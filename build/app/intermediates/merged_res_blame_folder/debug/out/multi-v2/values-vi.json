@@ -4,6 +4,7 @@
             "outputFile": "com.example.sravya_portfolio.app-mergeDebugResources-26:/values-vi/values-vi.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\516385c047ff7e6a3c06a8344d7135aa\\transformed\\browser-1.5.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -22,6 +23,9 @@
                 },
                 {
                     "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\22f52ad333b6b2c866fad7df6c08d122\\transformed\\core-1.13.1\\res\\values-vi\\values-vi.xml",
+=======
+                    "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\61309f6069ee565d7d5c3f7dbe868c19\\transformed\\core-1.13.1\\res\\values-vi\\values-vi.xml",
+>>>>>>> master
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -36,6 +40,26 @@
                         "endColumns": "96,101,98,99,102,112,115,100",
                         "endOffsets": "147,249,348,448,551,664,780,1328"
                     }
+<<<<<<< HEAD
+=======
+                },
+                {
+                    "source": "C:\\Users\\sravya.mendu\\.gradle\\caches\\transforms-3\\22d127bf304e27a027fcb90f4cfdb5e2\\transformed\\browser-1.5.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,172,283,397",
+                        "endColumns": "116,110,113,104",
+                        "endOffsets": "167,278,392,497"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "785,902,1013,1127",
+                        "endColumns": "116,110,113,104",
+                        "endOffsets": "897,1008,1122,1227"
+                    }
+>>>>>>> master
                 }
             ]
         }

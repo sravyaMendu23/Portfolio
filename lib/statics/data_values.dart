@@ -17,7 +17,7 @@ class DataValues {
    // Navigation Bar
    static const String navBarAboutMe = 'About Me';
    static const String navBarEducation = 'Education';
-   static const String navBarExperience = 'Experience';
+   static const String navBarExperience = 'Professional Experience';
    static const String navBarProjects = 'Projects';
    static const String navBarContactMe = 'Contact Me';
  

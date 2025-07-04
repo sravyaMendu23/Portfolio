@@ -24,7 +24,7 @@ class MS3Experience extends StatelessWidget {
                 description: DataValues.experienceDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type3(
-              image: 'assets/images/Toucan_logo.png',
+              image: 'assets/images/toucan_logo.png',
               title: DataValues.experienceOrg2Title,
               role: DataValues.experienceOrg2Role,
               years: DataValues.experienceOrg2Years,

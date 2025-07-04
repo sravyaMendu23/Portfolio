@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
 import '../widgets/social_profiles.dart';
+import '../widgets/text_animations.dart';
 
 class MS1Header extends StatelessWidget {
   const MS1Header({Key? key}) : super(key: key);
@@ -25,8 +26,8 @@ class MS1Header extends StatelessWidget {
             style: AppThemeData.darkTheme.textTheme.displayMedium,
             textAlign: TextAlign.center,
           ),
-          SelectableText(
-            DataValues.headerTitle,
+          AnimatedTextReveal(
+            text: DataValues.headerTitle,
             style: AppThemeData.darkTheme.textTheme.titleLarge,
           ),
           const SizedBox(height: 20.0),

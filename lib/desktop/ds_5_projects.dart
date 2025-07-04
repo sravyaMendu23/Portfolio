@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sravya_portfolio/widgets/text_animations.dart';
 
 import '../statics/data_values.dart';
 import '../statics/key_holders.dart';
@@ -27,15 +28,34 @@ class DS4Projects extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
-                  child: ContainerCard().type3(
-                    image: 'assets/images/Toucan_logo.png',
-                    title: DataValues.experienceOrg2Title,
-                    role: DataValues.experienceOrg2Role,
-                    years: DataValues.experienceOrg2Years,
-                    values: DataValues.experienceOrg2Vales,
-                    message: DataValues.githubURL.toString(),
-                    url: DataValues.githubURL,
-                    isButtonEnabled: true,
+                  child: SlideFadeAnimation(
+                    direction: SlideDirection.left,
+                    child: ContainerCard().type3(
+                      image: 'assets/images/klee_tech_logo.png',
+                      title: DataValues.projectsOrg1Title,
+                      role: DataValues.projectsOrg1Tech,
+                      years: DataValues.projectsOrg1Years,
+                      values: DataValues.projectsOrg1Aim,
+                      message: DataValues.githubURL.toString(),
+                      url: DataValues.githubURL,
+                      isButtonEnabled: false,
+                    ),
+                  ),
+                ),
+                SizedBox(width: MediaQuery.of(context).size.width * 0.03),
+                Expanded(
+                  child: SlideFadeAnimation(
+                    direction: SlideDirection.right,
+                    child: ContainerCard().type3(
+                      image: 'assets/images/toucan_logo.png',
+                      title: DataValues.projectsOrg2Title,
+                      role: DataValues.projectsOrg2Tech,
+                      years: DataValues.projectsOrg2Years,
+                      values: DataValues.projectsOrg2Aim,
+                      message: DataValues.githubURL.toString(),
+                      url: DataValues.githubURL,
+                      isButtonEnabled: false,
+                    ),
                   ),
                 ),
               ],

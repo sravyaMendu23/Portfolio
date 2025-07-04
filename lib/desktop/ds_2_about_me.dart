@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sravya_portfolio/widgets/text_animations.dart';
 
 import '../statics/key_holders.dart';
 import '../statics/data_values.dart';
@@ -38,23 +39,18 @@ class DS2AboutMe extends StatelessWidget {
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
-                  title: DataValues.aboutMeNwITitle,
-                  description: DataValues.aboutMeNwIDescription,
-                ),
-                const SizedBox(height: 30.0),
-                TextPairs().type1(
                   title: DataValues.aboutMeGenderTitle,
                   description: DataValues.aboutMeGenderDescription,
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
-                  title: DataValues.aboutMeDobTitle,
-                  description: DataValues.aboutMeDobDescription,
+                  title: DataValues.aboutMeLanguageTitle,
+                  description: DataValues.aboutMeLanguageDescription,
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
-                  title: DataValues.aboutMeLanguageTitle,
-                  description: DataValues.aboutMeLanguageDescription,
+                  title: DataValues.aboutMeHobbiesTitle,
+                  description: DataValues.aboutMeHobbiesDescription,
                 ),
               ],
             ),
@@ -72,11 +68,6 @@ class DS2AboutMe extends StatelessWidget {
                 TextPairs().type1(
                   title: DataValues.aboutMeLocationTitle,
                   description: DataValues.aboutMeLocationDescription,
-                ),
-                const SizedBox(height: 30.0),
-                TextPairs().type1(
-                  title: DataValues.aboutMeHobbiesTitle,
-                  description: DataValues.aboutMeHobbiesDescription,
                 ),
                 const SizedBox(height: 30.0),
                 TextPairs().type1(
@@ -98,22 +89,28 @@ class DS2AboutMe extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: ContainerCard().type1(
-              title: DataValues.aboutMeStudentTitle,
-              description: DataValues.aboutMeStudentDescription,
-              image: 'assets/icons/student.png',
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
+            child: SlideFadeAnimation(
+              direction: SlideDirection.left,
+              child: ContainerCard().type1(
+                title: DataValues.aboutMeStudentTitle,
+                description: DataValues.aboutMeStudentDescription,
+                image: 'assets/icons/student.png',
+                message: DataValues.linkedinURL.toString(),
+                url: DataValues.linkedinURL,
+              ),
             ),
           ),
           SizedBox(width: MediaQuery.of(context).size.width * 0.03),
           Expanded(
-            child: ContainerCard().type1(
-              title: DataValues.aboutMeDeveloperTitle,
-              description: DataValues.aboutMeDeveloperDescription,
-              image: 'assets/icons/developer.png',
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
+            child: SlideFadeAnimation(
+              direction: SlideDirection.right,
+              child: ContainerCard().type1(
+                title: DataValues.aboutMeDeveloperTitle,
+                description: DataValues.aboutMeDeveloperDescription,
+                image: 'assets/icons/developer.png',
+                message: DataValues.linkedinURL.toString(),
+                url: DataValues.linkedinURL,
+              ),
             ),
           ),
         ],

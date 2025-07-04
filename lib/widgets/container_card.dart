@@ -170,7 +170,7 @@ class ContainerCard {
                 ),
               ],
             ),
-            const SizedBox(height: 20.0),
+            isButtonEnabled ? const SizedBox(height: 20.0) : const SizedBox(height: 0),
             isButtonEnabled
                 ? ButtonTextSmall(
                     text: 'View More >>',
@@ -178,7 +178,7 @@ class ContainerCard {
                     url: url,
                   )
                 : Text(
-                    'See you soon with the link :)',
+                    '',
                     style: AppThemeData.darkTheme.textTheme.labelMedium,
                   ),
           ],

@@ -26,18 +26,8 @@ class MS2AboutMe extends StatelessWidget {
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeNwITitle,
-            description: DataValues.aboutMeNwIDescription,
-          ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
             title: DataValues.aboutMeGenderTitle,
             description: DataValues.aboutMeGenderDescription,
-          ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
-            title: DataValues.aboutMeDobTitle,
-            description: DataValues.aboutMeDobDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sravya_portfolio/widgets/text_animations.dart';
 
 import '../statics/data_values.dart';
 import '../statics/key_holders.dart';
@@ -27,15 +28,18 @@ class DS3Experience extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
-                  child: ContainerCard().type3(
-                    image: 'assets/images/Toucan_logo.png',
-                    title: DataValues.experienceOrg2Title,
-                    role: DataValues.experienceOrg2Role,
-                    years: DataValues.experienceOrg2Years,
-                    values: DataValues.experienceOrg2Vales,
-                    message: DataValues.linkedinURL.toString(),
-                    url: DataValues.linkedinURL,
-                    isButtonEnabled: true,
+                  child: SlideFadeAnimation(
+                    direction: SlideDirection.right,
+                    child: ContainerCard().type3(
+                      image: 'assets/images/toucan_logo.png',
+                      title: DataValues.experienceOrg2Title,
+                      role: DataValues.experienceOrg2Role,
+                      years: DataValues.experienceOrg2Years,
+                      values: DataValues.experienceOrg2Vales,
+                      message: DataValues.linkedinURL.toString(),
+                      url: DataValues.linkedinURL,
+                      isButtonEnabled: true,
+                    ),
                   ),
                 ),
               ],
